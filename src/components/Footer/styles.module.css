@@ -1,0 +1,19 @@
+.footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1.6rem;
+  transition: all 5s ease-in-out;
+}
+
+.footerLink:hover {
+  filter: brightness(80%);
+  text-decoration: underline;
+}
+
+.footerLink {
+  font-size: 1.2rem;
+  color: var(--text-muted);
+  text-decoration: none;
+}
