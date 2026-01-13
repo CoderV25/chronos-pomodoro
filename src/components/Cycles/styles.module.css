@@ -17,11 +17,11 @@
   border-radius: 50%;
 }
 .workTime {
-  background-color: var(--warning);
+  background: var(--warning);
 }
 .shortBreakTime {
-  background-color: var(--primary);
+  background: var(--primary);
 }
 .longBreakTime {
-  background-color: var(--info);
+  background: var(--info);
 }
